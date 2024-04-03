@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ selectedMission?.mission_name }}</mat-card-title>
+    <mat-card-subtitle>{{ selectedMission?.launch_year }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="selectedMission?.mission_patch_small" alt="Mission Patch">
+  <mat-card-content>
+    <p>{{ selectedMission?.details }}</p>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,5 @@
+<mat-form-field appearance="fill">
+  <mat-label>Enter launch year</mat-label>
+  <input matInput type="number" placeholder="Year" [(ngModel)]="selectedYear">
+</mat-form-field>
+<button mat-raised-button color="primary" (click)="filterByYear()">Filter</button>
